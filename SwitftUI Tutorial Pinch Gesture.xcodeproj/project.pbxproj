@@ -14,6 +14,9 @@
 		717EBBA62872E134005364CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717EBB942872E134005364CF /* Assets.xcassets */; };
 		717EBBA72872E134005364CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717EBB942872E134005364CF /* Assets.xcassets */; };
 		717EBBB52872EA3C005364CF /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EBBB42872EA3C005364CF /* InfoPanelView.swift */; };
+		71CF277328787968008B155A /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF277228787968008B155A /* PageModel.swift */; };
+		71CF277528789DDA008B155A /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF277428789DDA008B155A /* PageData.swift */; };
+		71D966382873E5C2006A931C /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D966372873E5C2006A931C /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		717EBB9F2872E134005364CF /* SwitftUI Tutorial Pinch Gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwitftUI Tutorial Pinch Gesture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		717EBBA12872E134005364CF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		717EBBB42872EA3C005364CF /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		71CF277228787968008B155A /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		71CF277428789DDA008B155A /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
+		71D966372873E5C2006A931C /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				717EBBB42872EA3C005364CF /* InfoPanelView.swift */,
+				71D966372873E5C2006A931C /* ControlImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +109,7 @@
 		717EBBB22872E31E005364CF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				71CF277228787968008B155A /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +117,7 @@
 		717EBBB32872E32B005364CF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				71CF277428789DDA008B155A /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -211,8 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D966382873E5C2006A931C /* ControlImageView.swift in Sources */,
+				71CF277328787968008B155A /* PageModel.swift in Sources */,
 				717EBBA42872E134005364CF /* ContentView.swift in Sources */,
 				717EBBA22872E134005364CF /* SwitftUI_Tutorial_Pinch_GestureApp.swift in Sources */,
+				71CF277528789DDA008B155A /* PageData.swift in Sources */,
 				717EBBB52872EA3C005364CF /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
